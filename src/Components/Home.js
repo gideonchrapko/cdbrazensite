@@ -1,18 +1,16 @@
-import React from "react"
+import React from 'react';
 
-import Footer from "./HeaderNew"
-import Product from "../Components_shopify/Product"
-import "../Styles/Home.css"
+import '../Styles/Home.css';
+import ProductList from '../Components_shopify/ProductList';
 
 const Home = () => {
   return (
-    <div style={{ overflow: "scroll" }}>
+    <div style={{ overflow: 'scroll' }}>
       <div>
-        <Product />
+        <ProductList />
       </div>
-      <Footer />
     </div>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;
